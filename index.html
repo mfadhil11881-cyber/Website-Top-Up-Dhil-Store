@@ -1661,6 +1661,9 @@
                                 <option value="Free Fire MAX">Free Fire MAX</option>
                                 <option value="Honor of Kings">Honor of Kings</option>
                                 <option value="MCGG">MCGG</option>
+                                <option value="Honkai Star Rail">Honkai Star Rail</option>
+                                <option value="Delta Force">Delta Force</option>
+                                <option value="Magic Chess Gogo">Magic Chess Gogo</option>
                                 <option value="Joki MLBB">Joki MLBB</option>
                                 <option value="Pulsa & Data">Pulsa & Data</option>
                             </select>
@@ -1991,8 +1994,8 @@
             {
                 id: 'valorant',
                 name: 'Valorant',
-                image: 'https://images.unsplash.com/photo-1633265486064-086b219458ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-                desc: 'VP Valorant dari 125 sampai 6400',
+                image: 'https://images.unsplash.com/photo-1593305841991-05c297ba4575?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+                desc: 'VP Valorant dari 125 sampai 8000',
                 currency: 'VP',
                 packages: {
                     'small': [
@@ -2024,7 +2027,7 @@
             {
                 id: 'genshin',
                 name: 'Genshin Impact',
-                image: 'https://images.unsplash.com/photo-1633265486064-086b219458ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+                image: 'https://images.unsplash.com/photo-1634141858718-c1c7275cdf1f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
                 desc: 'Genesis Crystal dari 60 sampai 6480',
                 currency: 'Crystal',
                 packages: {
@@ -2086,6 +2089,198 @@
                         { amount: 8000, bonus: 800, price: 1500000, discount: 25 }
                     ]
                 }
+            },
+            {
+                id: 'ffmax',
+                name: 'Free Fire MAX',
+                image: 'https://images.unsplash.com/photo-1614687153862-b0c3d5e243f0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+                desc: 'Diamond FF MAX dari 5 sampai 5000+',
+                currency: 'Diamond',
+                packages: {
+                    'small': [
+                        { amount: 5, bonus: 0, price: 1600, discount: 10 },
+                        { amount: 12, bonus: 1, price: 3800, discount: 10 },
+                        { amount: 20, bonus: 2, price: 6200, discount: 10 },
+                        { amount: 30, bonus: 3, price: 9300, discount: 10 },
+                        { amount: 40, bonus: 4, price: 12400, discount: 10 },
+                        { amount: 50, bonus: 5, price: 15500, discount: 10 }
+                    ],
+                    'medium': [
+                        { amount: 70, bonus: 7, price: 21700, discount: 15 },
+                        { amount: 100, bonus: 10, price: 31000, discount: 15 },
+                        { amount: 140, bonus: 14, price: 43400, discount: 15 },
+                        { amount: 200, bonus: 20, price: 62000, discount: 15 },
+                        { amount: 250, bonus: 25, price: 77500, discount: 15 },
+                        { amount: 300, bonus: 30, price: 93000, discount: 15 }
+                    ],
+                    'large': [
+                        { amount: 500, bonus: 50, price: 155000, discount: 20 },
+                        { amount: 750, bonus: 75, price: 232500, discount: 20 },
+                        { amount: 1000, bonus: 100, price: 310000, discount: 20 },
+                        { amount: 2000, bonus: 200, price: 620000, discount: 20 },
+                        { amount: 3000, bonus: 300, price: 930000, discount: 25 },
+                        { amount: 5000, bonus: 500, price: 1550000, discount: 25 }
+                    ],
+                    'membership': [
+                        { 
+                            amount: 'Diamond Monthly Pass', 
+                            duration: '30 Hari', 
+                            price: 47000, 
+                            discount: 15,
+                            benefits: [
+                                '25 Diamond setiap hari',
+                                'Total 750 Diamond',
+                                'Exclusive Daily Login Rewards',
+                                'Special discount on items',
+                                'Priority matchmaking'
+                            ]
+                        },
+                        { 
+                            amount: 'Elite Pass MAX', 
+                            duration: 'Season (60 Hari)', 
+                            price: 88000, 
+                            discount: 20,
+                            benefits: [
+                                'Elite Pass MAX Instant Unlock',
+                                '450 Diamond langsung',
+                                'Exclusive skins & items',
+                                'Daily rewards x2',
+                                'Special missions access',
+                                'VIP customer support'
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                id: 'hok',
+                name: 'Honor of Kings',
+                image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+                desc: 'Tokens HOK dari 10 sampai 10000',
+                currency: 'Tokens',
+                packages: {
+                    'small': [
+                        { amount: 10, bonus: 0, price: 3000, discount: 10 },
+                        { amount: 20, bonus: 2, price: 6000, discount: 10 },
+                        { amount: 30, bonus: 3, price: 9000, discount: 10 },
+                        { amount: 40, bonus: 4, price: 12000, discount: 10 },
+                        { amount: 50, bonus: 5, price: 15000, discount: 10 },
+                        { amount: 60, bonus: 6, price: 18000, discount: 10 }
+                    ],
+                    'medium': [
+                        { amount: 100, bonus: 10, price: 30000, discount: 15 },
+                        { amount: 200, bonus: 20, price: 60000, discount: 15 },
+                        { amount: 300, bonus: 30, price: 90000, discount: 15 },
+                        { amount: 400, bonus: 40, price: 120000, discount: 15 },
+                        { amount: 500, bonus: 50, price: 150000, discount: 15 },
+                        { amount: 600, bonus: 60, price: 180000, discount: 15 }
+                    ],
+                    'large': [
+                        { amount: 1000, bonus: 100, price: 300000, discount: 20 },
+                        { amount: 2000, bonus: 200, price: 600000, discount: 20 },
+                        { amount: 3000, bonus: 300, price: 900000, discount: 20 },
+                        { amount: 5000, bonus: 500, price: 1500000, discount: 20 },
+                        { amount: 8000, bonus: 800, price: 2400000, discount: 25 },
+                        { amount: 10000, bonus: 1000, price: 3000000, discount: 25 }
+                    ]
+                }
+            },
+            {
+                id: 'deltaforce',
+                name: 'Delta Force',
+                image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+                desc: 'Diamond Delta Force dari 10 sampai 5000',
+                currency: 'Diamond',
+                packages: {
+                    'small': [
+                        { amount: 10, bonus: 1, price: 3000, discount: 10 },
+                        { amount: 20, bonus: 2, price: 6000, discount: 10 },
+                        { amount: 30, bonus: 3, price: 9000, discount: 10 },
+                        { amount: 40, bonus: 4, price: 12000, discount: 10 },
+                        { amount: 50, bonus: 5, price: 15000, discount: 10 },
+                        { amount: 60, bonus: 6, price: 18000, discount: 10 }
+                    ],
+                    'medium': [
+                        { amount: 100, bonus: 10, price: 30000, discount: 15 },
+                        { amount: 200, bonus: 20, price: 60000, discount: 15 },
+                        { amount: 300, bonus: 30, price: 90000, discount: 15 },
+                        { amount: 400, bonus: 40, price: 120000, discount: 15 },
+                        { amount: 500, bonus: 50, price: 150000, discount: 15 },
+                        { amount: 600, bonus: 60, price: 180000, discount: 15 }
+                    ],
+                    'large': [
+                        { amount: 1000, bonus: 100, price: 300000, discount: 20 },
+                        { amount: 1500, bonus: 150, price: 450000, discount: 20 },
+                        { amount: 2000, bonus: 200, price: 600000, discount: 20 },
+                        { amount: 3000, bonus: 300, price: 900000, discount: 20 },
+                        { amount: 4000, bonus: 400, price: 1200000, discount: 25 },
+                        { amount: 5000, bonus: 500, price: 1500000, discount: 25 }
+                    ]
+                }
+            },
+            {
+                id: 'magicchess',
+                name: 'Magic Chess Gogo',
+                image: 'https://images.unsplash.com/photo-1585504198196-fb2f5d2d2c5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+                desc: 'Diamond Magic Chess dari 10 sampai 3000',
+                currency: 'Diamond',
+                packages: {
+                    'small': [
+                        { amount: 10, bonus: 1, price: 2500, discount: 10 },
+                        { amount: 20, bonus: 2, price: 5000, discount: 10 },
+                        { amount: 30, bonus: 3, price: 7500, discount: 10 },
+                        { amount: 40, bonus: 4, price: 10000, discount: 10 },
+                        { amount: 50, bonus: 5, price: 12500, discount: 10 },
+                        { amount: 60, bonus: 6, price: 15000, discount: 10 }
+                    ],
+                    'medium': [
+                        { amount: 100, bonus: 10, price: 25000, discount: 15 },
+                        { amount: 200, bonus: 20, price: 50000, discount: 15 },
+                        { amount: 300, bonus: 30, price: 75000, discount: 15 },
+                        { amount: 400, bonus: 40, price: 100000, discount: 15 },
+                        { amount: 500, bonus: 50, price: 125000, discount: 15 },
+                        { amount: 600, bonus: 60, price: 150000, discount: 15 }
+                    ],
+                    'large': [
+                        { amount: 1000, bonus: 100, price: 250000, discount: 20 },
+                        { amount: 1500, bonus: 150, price: 375000, discount: 20 },
+                        { amount: 2000, bonus: 200, price: 500000, discount: 20 },
+                        { amount: 2500, bonus: 250, price: 625000, discount: 20 },
+                        { amount: 3000, bonus: 300, price: 750000, discount: 25 }
+                    ]
+                }
+            },
+            {
+                id: 'honkaistarrail',
+                name: 'Honkai Star Rail',
+                image: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+                desc: 'Oneiric Shards dari 60 sampai 6480',
+                currency: 'Shards',
+                packages: {
+                    'small': [
+                        { amount: 60, bonus: 60, price: 16000, discount: 10 },
+                        { amount: 120, bonus: 120, price: 32000, discount: 10 },
+                        { amount: 180, bonus: 180, price: 48000, discount: 10 },
+                        { amount: 240, bonus: 240, price: 64000, discount: 10 },
+                        { amount: 300, bonus: 300, price: 80000, discount: 10 },
+                        { amount: 360, bonus: 360, price: 96000, discount: 10 }
+                    ],
+                    'medium': [
+                        { amount: 600, bonus: 600, price: 160000, discount: 15 },
+                        { amount: 800, bonus: 800, price: 213000, discount: 15 },
+                        { amount: 1000, bonus: 1000, price: 266000, discount: 15 },
+                        { amount: 1200, bonus: 1200, price: 319000, discount: 15 },
+                        { amount: 1500, bonus: 1500, price: 399000, discount: 15 },
+                        { amount: 2000, bonus: 2000, price: 532000, discount: 15 }
+                    ],
+                    'large': [
+                        { amount: 3000, bonus: 3000, price: 798000, discount: 20 },
+                        { amount: 4000, bonus: 4000, price: 1064000, discount: 20 },
+                        { amount: 5000, bonus: 5000, price: 1330000, discount: 20 },
+                        { amount: 6000, bonus: 6000, price: 1596000, discount: 20 },
+                        { amount: 6480, bonus: 6480, price: 1728000, discount: 25 }
+                    ]
+                }
             }
         ];
 
@@ -2140,16 +2335,27 @@
             },
             {
                 id: 'fs5',
-                game: 'Mobile Legends',
-                amount: 500,
-                bonus: 500,
-                currency: 'Diamond',
-                originalPrice: 225000,
-                salePrice: 180000,
+                game: 'Honor of Kings',
+                amount: 100,
+                bonus: 20,
+                currency: 'Tokens',
+                originalPrice: 30000,
+                salePrice: 24000,
                 discount: 20,
                 sold: 15,
-                total: 30,
-                special: 'first-time'
+                total: 40
+            },
+            {
+                id: 'fs6',
+                game: 'Free Fire MAX',
+                amount: 70,
+                bonus: 10,
+                currency: 'Diamond',
+                originalPrice: 21700,
+                salePrice: 17360,
+                discount: 20,
+                sold: 22,
+                total: 50
             }
         ];
 
